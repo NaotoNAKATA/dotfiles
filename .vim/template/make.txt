@@ -3,6 +3,7 @@ OBJS = main.o
 
 CC = gcc
 CFLAGS = -Wall -O2
+LDFLAGS =
 
 .SUFFIXES: .c .o
 
