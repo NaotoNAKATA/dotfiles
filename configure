@@ -3,4 +3,9 @@ if [ -e ~/.vimrc ]; then
 	rm ~/.vimrc
 fi
 
+if [ -e ~/.vim ]; then
+	rm -rf ~/.vim
+fi
+
 ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s ~/dotfiles/.vim ~/.vim
