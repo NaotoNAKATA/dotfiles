@@ -13,3 +13,5 @@ set encoding=utf-8
 set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
 set background=dark
 autocmd BufNewFile *.py 0r $HOME/.vim/template/py.txt
+autocmd BufNewFile *.c 0r $HOME/.vim/template/c.txt
+autocmd BufNewFile *.cpp 0r $HOME/.vim/template/cpp.txt
