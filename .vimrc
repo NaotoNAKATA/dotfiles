@@ -15,3 +15,4 @@ set background=dark
 autocmd BufNewFile *.py 0r $HOME/.vim/template/py.txt
 autocmd BufNewFile *.c 0r $HOME/.vim/template/c.txt
 autocmd BufNewFile *.cpp 0r $HOME/.vim/template/cpp.txt
+autocmd BufNewFile CMakefiles.txt 0r $HOME/.vim/template/cmake.txt
