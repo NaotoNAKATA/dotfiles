@@ -1,11 +1,11 @@
-#! /bin/bash
-if [ -e ~/.vimrc ]; then
-	rm ~/.vimrc
+#! /bin/sh
+if [ -e ${HOME}/.vimrc -o -L ${HOME}/.vimrc ]; then
+	rm ${HOME}/.vimrc
 fi
 
-if [ -e ~/.vim ]; then
-	rm -rf ~/.vim
+if [ -e ${HOME}/.vim -o -L ${HOME}/.vim ]; then
+	rm -rf ${HOME}/.vim
 fi
 
-ln -s ~/dotfiles/.vimrc ~/.vimrc
-ln -s ~/dotfiles/.vim ~/.vim
+ln -s ${HOME}/dotfiles/.vimrc ${HOME}/.vimrc
+ln -s ${HOME}/dotfiles/.vim ${HOME}/.vim
