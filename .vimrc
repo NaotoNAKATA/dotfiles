@@ -19,3 +19,4 @@ autocmd BufNewFile *.cpp 0r $HOME/.vim/template/cpp.txt
 autocmd BufNewFile CMakeLists.txt 0r $HOME/.vim/template/cmake.txt
 autocmd BufNewFile Makefile 0r $HOME/.vim/template/make.txt
 autocmd BufNewFile *.sh 0r $HOME/.vim/template/sh.txt
+autocmd BufNewFile *.pl 0r $HOME/.vim/template/pl.txt
