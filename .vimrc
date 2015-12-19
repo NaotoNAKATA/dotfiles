@@ -26,3 +26,4 @@ autocmd BufNewFile *.h 0r !echo ''
 autocmd BufNewFile *.h 0r !echo ''
 autocmd BufNewFile *.h 0r !echo '\#define _'`echo '%' | tr 'a-z' 'A-Z' | tr '.,-' '_'`'_'
 autocmd BufNewFile *.h 0r !echo '\#ifndef _'`echo '%' | tr 'a-z' 'A-Z' | tr '.,-' '_'`'_'
+autocmd BufNewFile *.bat 0r $HOME/.vim/template/bat.txt

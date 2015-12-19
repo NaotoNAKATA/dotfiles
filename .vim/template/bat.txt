@@ -1,0 +1,16 @@
+echo off
+SETLOCAL enabledelayedexpansion
+
+call :main
+pause
+exit
+
+:main
+
+
+for /L %n in (0,1,10) do (
+	set num = %%~n
+	echo %num%
+)
+
+exit /b
