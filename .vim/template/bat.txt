@@ -8,9 +8,9 @@ exit
 :main
 
 
-for /L %n in (0,1,10) do (
-	set num = %%~n
-	echo %num%
+for /L %%n in (0,1,10) do (
+	set num=%%~n
+	echo !num!
 )
 
 exit /b
