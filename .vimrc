@@ -35,3 +35,5 @@ autocmd BufNewFile *.hpp 0r !echo '\#define _'`echo '%' | tr 'a-z' 'A-Z' | tr '.
 autocmd BufNewFile *.hpp 0r !echo '\#ifndef _'`echo '%' | tr 'a-z' 'A-Z' | tr '.,-' '_'`'_'
 autocmd BufNewFile build.bat 0r $HOME/.vim/template/build.txt
 autocmd BufNewFile configure.sh 0r $HOME/.vim/template/configure.txt
+set noundofile
+set nobackup
