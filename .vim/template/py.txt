@@ -3,5 +3,5 @@
 import sys
 
 if __name__ == "__main__":
-	param = sys.argv
-	print "Hello:" + param[0]
+    param = sys.argv
+    print("Hello:" + param[0])
