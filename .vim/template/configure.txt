@@ -7,7 +7,7 @@ if [ ! -e ${BUILD} ] ; then
 	cd ${BUILD}
 	cmake ..
 else
-	cd build
+	cd ${BUILD}
 fi
 
 make
